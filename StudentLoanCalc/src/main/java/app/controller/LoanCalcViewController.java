@@ -18,14 +18,26 @@ public class LoanCalcViewController implements Initializable   {
 	@FXML
 	private TextField LoanAmount;
 
-	
 	@FXML
 	private Label lblTotalPayemnts;
 	
 	@FXML
+	private Label lblTotalInterest;   
+	
+	@FXML
 	private DatePicker PaymentStartDate;
 	
+	@FXML
+	private TextField InterestRate;
 	
+	@FXML
+	private TextField Term;
+	
+	@FXML
+	private TextField ExtraPayment;
+	
+	@FXML
+	private TextField FutureValue;
 	
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
